@@ -1,6 +1,9 @@
 .col-md-10.text-center
 
-  h1 Who are we?
+  = image_tag 'header-logo.png', height: '300'
+
+  h1
+    span.femina FeminaKonnect
 
   p
     span
@@ -19,7 +22,7 @@
   p Through entrepreneurship, venture capital and mentorship, FeminaKonnect is redefining what YOU are capable of.
 
   p
-    = link_to 'About Us', root_path, class: 'btn btn-primary'
+    = link_to 'About Us', '/#landing-entre', class: 'btn btn-primary'
     = link_to 'Experts', root_path, class: 'btn btn-primary'
     = link_to 'Events', root_path, class: 'btn btn-primary'
     = link_to 'Contact Us', root_path, class: 'btn btn-primary'

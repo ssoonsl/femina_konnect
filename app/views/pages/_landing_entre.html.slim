@@ -1,10 +1,12 @@
-.col-md-6.offset-1.text-center
+.row.text-center
 
   h1 Are you an entrepreneur?
 
   p
     = link_to 'Yes', root_path, class: 'btn btn-primary'
     = link_to 'No', root_path, class: 'btn btn-primary'
+
+.col-md-6.text-center
 
   #landing-carousel.carousel.slide data-ride="carousel" data-interval="10000"
     ol.carousel-indicators
@@ -25,30 +27,32 @@
       span.carousel-control-next-icon aria-hidden="true"
       span.sr-only Next
 
-.col-md-3
+.col-md-4
 
-  h2 Are you ready to
+  div
+    h3 Are you ready to
 
-  ul
-    li
-      span.oi.oi-chevron-right
-      | Open up your world to entrepreneurship, venture capital, and technology?
-    li
-      span.oi.oi-chevron-right Jump start your business and grow it?
-    li
-      span.oi.oi-chevron-right Dream big and live your dream life?
+    ul
+      li
+        span.oi.oi-chevron-right
+        | Open up your world to entrepreneurship, venture capital, and technology?
+      li
+        span.oi.oi-chevron-right Jump start your business and grow it?
+      li
+        span.oi.oi-chevron-right Dream big and live your dream life?
 
-  h2
-    | In the
-    span.femina  FeminaKonnect
-    | network, you will
+  div
+    h3
+      | With
+      span.femina  FeminaKonnect
+      | , you will
 
-  ul
-    li
-      span.oi.oi-chevron-right Be empowered and inspired in a peer-to-peer support system
-    li
-      span.oi.oi-chevron-right Connect to other founders who are ready to help
-    li
-      span.oi.oi-chevron-right Gain access to tons of curated resources for young entrepreneurs
-    li
-      span.oi.oi-chevron-right Attend fabulous events hosted by us and our partners around the world
+    ul
+      li
+        span.oi.oi-chevron-right Be empowered and inspired in a peer-to-peer support system
+      li
+        span.oi.oi-chevron-right Connect to other founders who are ready to help
+      li
+        span.oi.oi-chevron-right Gain access to tons of curated resources for young entrepreneurs
+      li
+        span.oi.oi-chevron-right Attend fabulous events hosted by us and our partners around the world
