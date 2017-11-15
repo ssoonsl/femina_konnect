@@ -1,0 +1,54 @@
+.col-md-6.offset-1.text-center
+
+  h1 Are you an entrepreneur?
+
+  p
+    = link_to 'Yes', root_path, class: 'btn btn-primary'
+    = link_to 'No', root_path, class: 'btn btn-primary'
+
+  #landing-carousel.carousel.slide data-ride="carousel" data-interval="10000"
+    ol.carousel-indicators
+      li data-target="#landing-carousel" data-slide-to="0" class="active"
+      li data-target="#landing-carousel" data-slide-to="1"
+      li data-target="#landing-carousel" data-slide-to="2"
+    .carousel-inner
+      .carousel-item.active
+        img.d-block.w-100 src="/assets/landing_carousel_1.png" alt="First slide"
+      .carousel-item
+        img.d-block.w-100 src="/assets/landing_carousel_1.png" alt="Second slide"
+      .carousel-item
+        img.d-block.w-100 src="/assets/landing_carousel_1.png" alt="Third slide"
+    a.carousel-control-prev href="#landing-carousel" role="button" data-slide="prev"
+      span.carousel-control-prev-icon aria-hidden="true"
+      span.sr-only Previous
+    a.carousel-control-next href="#landing-carousel" role="button" data-slide="next"
+      span.carousel-control-next-icon aria-hidden="true"
+      span.sr-only Next
+
+.col-md-3
+
+  h2 Are you ready to
+
+  ul
+    li
+      span.oi.oi-chevron-right
+      | Open up your world to entrepreneurship, venture capital, and technology?
+    li
+      span.oi.oi-chevron-right Jump start your business and grow it?
+    li
+      span.oi.oi-chevron-right Dream big and live your dream life?
+
+  h2
+    | In the
+    span.femina  FeminaKonnect
+    | network, you will
+
+  ul
+    li
+      span.oi.oi-chevron-right Be empowered and inspired in a peer-to-peer support system
+    li
+      span.oi.oi-chevron-right Connect to other founders who are ready to help
+    li
+      span.oi.oi-chevron-right Gain access to tons of curated resources for young entrepreneurs
+    li
+      span.oi.oi-chevron-right Attend fabulous events hosted by us and our partners around the world

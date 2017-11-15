@@ -1,18 +1,14 @@
-.container
-  .row
-    .col-md-8.col-md-offset-2.text-center
+.row#landing-top
+  = render 'landing_top'
 
-      = image_tag 'header_logo.png', height: '300'
+.row#landing-about
+  = render 'landing_about'
 
-      h1 Who are we?
+.row#landing-entre
+  = render 'landing_entre'
 
-      p
-        span FeminaKonnect is the female led millennial venture capital firm and the  largest platform for the next generation of  female entrepreneurs in South Asia.
+.row
+  = render 'landing_partners'
 
-      p We are a powerful network built by fearless visionaries and relentless executors.
-
-      p We believe in diversity, breaking the norms, and changing the world.
-
-      p With FeminaKonnect, you will always be energized, motivated and inspired.
-
-      p Through entrepreneurship, venture capital and mentorship, FeminaKonnect is redefining what YOU are capable of.
+.row#landing-experts
+  = render 'landing_experts'

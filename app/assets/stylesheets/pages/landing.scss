@@ -1,0 +1,107 @@
+.pageslanding {
+
+  font-family: 'Titillium Web', Sans-Serif;
+  font-size: 1rem;
+
+  .row {
+    width: 100%;
+    padding: 3rem 0rem;
+    justify-content: center;
+    margin: 0;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Dosis', Sans-Serif;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+  }
+
+  h1 {
+    padding: 3rem 0rem;
+    font-size: 3rem;
+  }
+
+  span.femina {
+    font-family: 'Pacifico', cursive;
+    font-size: 110%;
+  }
+
+  div#landing-about {
+    padding: 2rem 0rem;
+
+    p {
+      span {
+        font-weight: bold;
+      }
+      .btn {
+        margin: 1rem 2rem 0rem 2rem;
+        border-radius: 0%;
+        border: none;
+        background: none;
+        border-bottom: 2px solid grey;
+        color: black;
+      }
+      .btn:hover {
+        border-bottom: 2px solid red;
+        color: darkred;
+      }
+    }
+  }
+
+  div#landing-entre {
+    background: linear-gradient(to right, rgb(252, 234, 187), rgb(248, 181, 0));
+
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+  }
+
+  #landing-carousel {
+    img {
+      height: 500px;
+    }
+    span {
+      color: black;
+    }
+  }
+
+  #landing-experts {
+    background: #3db6b8 url('/assets/landing-experts-bg.jpeg');
+    background-size: cover;
+    background-blend-mode: screen;
+
+    .process {
+      .card {
+        padding: 1rem;
+        width: 17rem;
+
+        img {
+          height: 15rem;
+        }
+
+        h4 {
+          padding: 1rem;
+        }
+      }
+    }
+    .row {
+      justify-content: space-evenly;
+    }
+    .row.paired-card {
+      .card {
+        width: 25rem;
+        height: 10rem;
+
+        img {
+          display: block;
+          max-width: 100%;
+          max-height: 100%;
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+  }
+
+}
