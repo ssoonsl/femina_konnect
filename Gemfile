@@ -37,6 +37,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'simple_form'
 # Slim templates generator for Rails 3, 4 and 5
 gem "slim-rails"
+# The font-awesome font bundled as an asset for the rails asset pipeline
+gem "font-awesome-rails"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
