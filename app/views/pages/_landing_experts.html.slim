@@ -22,5 +22,22 @@
         p.card-text Time to provide your expertise while helping entrepreneurs and earning money.
 
   .row.paired-card
-    .card
-      = image_tag 'landing-expert-1.png', class: 'rounded-circle'
+    div.paired-card-holder
+      div
+        = image_tag 'landing-expert-1.png', class: 'rounded-circle'
+        = link_to 'Request a call!', root_path, class: 'btn btn-primary'
+      .card
+        h3 XYZ
+        p.expand
+          span Product Development
+        p XYZ is the founder and Chief Operating Officer of Sandbox. She...
+
+    div.paired-card-holder
+      div
+        = image_tag 'landing-expert-2.png', class: 'rounded-circle'
+        = link_to 'Request a call!', root_path, class: 'btn btn-primary'
+      .card
+        h3 ABC
+        p.expand
+          span Marketing Strategy & Community Building
+        p ABC is a marketing strategist for entrepreneurs and small businesses...
